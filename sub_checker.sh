@@ -13,5 +13,5 @@ echo -e "$line Response header"
  echo -e " ------------------------------------------------------------------------"   
 done < $1 >>  "results.txt"
 echo -e "saving file.."
-echo -e "filename" && date +%Y-%m-%d-%s.log
-mv results.txt  `date +"%Y-%m-%d-%s.log"`
+echo -e "filename: /logs" && date +%Y-%m-%d-%s.log
+mv results.txt  logs/`date +"%Y-%m-%d-%s.log"`

@@ -1,9 +1,9 @@
 www.hackerone.com
 api.hackerone.com
-go.hackerone.com<BR>info.hackerone.com
-api.hackerone.com<BR>hackerone.com<BR>www.hackerone.com
-hackerone.com<BR>www.hackerone.com
-api.hackerone.com<BR>www.hackerone.com
+go.hackerone.com
+api.hackerone.com
+hackerone.com
+api.hackerone.com
 docs.hackerone.com
 mta-sts.forwarding.hackerone.com
 info.hackerone.com
