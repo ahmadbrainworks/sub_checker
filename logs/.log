@@ -1,0 +1,89 @@
+[34m PAGE TILE: 
+Google
+[92mChecking google.com response header
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 23 Mar 2020 11:06:22 GMT
+Expires: Wed, 22 Apr 2020 11:06:22 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 219
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+[91mChecking google.com DNS and Host records
+google.com has address 216.58.223.206
+google.com has IPv6 address 2c0f:fb50:4003:802::200e
+google.com mail is handled by 10 aspmx.l.google.com.
+google.com mail is handled by 30 alt2.aspmx.l.google.com.
+google.com mail is handled by 50 alt4.aspmx.l.google.com.
+google.com mail is handled by 20 alt1.aspmx.l.google.com.
+google.com mail is handled by 40 alt3.aspmx.l.google.com.
+Server:		192.168.8.1
+Address:	192.168.8.1#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 216.58.223.206
+Name:	google.com
+Address: 2c0f:fb50:4003:802::200e
+
+[95m ------------------------------------------------------------------------
+[34m PAGE TILE: 
+[92mChecking facebook.com response header
+HTTP/1.1 302 Found
+Location: https://facebook.com/
+Content-Type: text/html; charset="utf-8"
+X-FB-Debug: n0mwb3xaNI2elBqp6m4KXMCI3aVIn30PIdu3RA1fEZykSWh9qR6kwEZaBO5KOldF0uOHOJhzO8u7d+a6W6IKTw==
+Date: Mon, 23 Mar 2020 11:06:26 GMT
+Alt-Svc: h3-27=":443"; ma=3600
+Connection: keep-alive
+Content-Length: 0
+
+[91mChecking facebook.com DNS and Host records
+facebook.com has address 157.240.29.35
+facebook.com has IPv6 address 2a03:2880:f138:83:face:b00c:0:25de
+facebook.com mail is handled by 10 smtpin.vvv.facebook.com.
+Server:		192.168.8.1
+Address:	192.168.8.1#53
+
+Non-authoritative answer:
+Name:	facebook.com
+Address: 157.240.29.35
+Name:	facebook.com
+Address: 2a03:2880:f138:83:face:b00c:0:25de
+
+[95m ------------------------------------------------------------------------
+[34m PAGE TILE: 
+Twitter. It&#39;s what&#39;s happening.
+bird
+[92mChecking twitter.com response header
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+date: Mon, 23 Mar 2020 11:06:29 GMT
+location: https://twitter.com/
+server: tsa_f
+set-cookie: personalization_id="v1_uenVULrYaJ7MQe708a6V3w=="; Max-Age=63072000; Expires=Wed, 23 Mar 2022 11:06:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: guest_id=v1%3A158496158951017375; Max-Age=63072000; Expires=Wed, 23 Mar 2022 11:06:29 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+x-connection-hash: 5acf061fee2fef9a38c5cc0f96a331b8
+x-response-time: 114
+
+[91mChecking twitter.com DNS and Host records
+twitter.com has address 104.244.42.65
+twitter.com has address 104.244.42.129
+twitter.com mail is handled by 30 aspmx2.googlemail.com.
+twitter.com mail is handled by 30 aspmx3.googlemail.com.
+twitter.com mail is handled by 10 aspmx.l.google.com.
+twitter.com mail is handled by 20 alt1.aspmx.l.google.com.
+twitter.com mail is handled by 20 alt2.aspmx.l.google.com.
+Server:		192.168.8.1
+Address:	192.168.8.1#53
+
+Non-authoritative answer:
+Name:	twitter.com
+Address: 104.244.42.65
+Name:	twitter.com
+Address: 104.244.42.129
+
+[95m ------------------------------------------------------------------------
