@@ -7,7 +7,7 @@ echo -e " PAGE TILE: " && timeout 20   wget --quiet -O - $line \
   | sed -n -e 's!.*<title>\(.*\)</title>.*!\1!p'
 
 echo -e "$line Response header" 
-   curl -I https://$name --connect-timeout 20
+   curl -I http://$name --connect-timeout 20
  echo -e "$line DNS and Host records"
  timeout 20    host $name  && nslookup $name
  echo -e " ------------------------------------------------------------------------"   
