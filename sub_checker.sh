@@ -17,7 +17,7 @@
                                       echo "              |______|                                       ";
 
                                       echo -e "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m Coded by @ahmadbrainworks, website:https://ahmadbrain.works"
-echo -e "Default \e[39m"
+echo -e "\e[39m"
 
 
 
